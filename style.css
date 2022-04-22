@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 #first-block {
@@ -113,15 +113,20 @@ body {
 
 #search-body {
     width: 1600px;
-    height: 200px;
+    height: 160px;
     background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 30px 30px 30px;
 }
 
 .header-el {
     max-width: 147px;
     /* height: 48px; */
     padding: 12px;
-    background-color: white;
+    background-color: #EDF2F9;
     margin-right: 15px;
     display: flex;
     justify-content: space-around;
@@ -143,4 +148,178 @@ body {
 .header-active {
     background-color: #1D54A4;
     color: white;
+}
+
+.param-ico-bg {
+    /* width: 48px;
+    height: 48px; */
+    border-radius: 10px;
+    background-color: #EDF2F9;
+    max-width: 48px;
+    max-height: 48px;
+    margin-right: 8px;
+}
+
+.param-ico-bg img {
+    padding: 12px;
+}
+
+.search-param {
+    display: flex;
+    margin-top: 45px;
+}
+
+.param-text-block h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D54A4;
+}
+
+.param-text-block h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1D54A4;
+}
+
+.search-btn {
+    max-width: 82px;
+    max-height: 82px;
+    background: #1D54A4;
+    border-radius: 25px;
+}
+
+.search-btn img {
+    padding: 21px;
+}
+
+#header-info {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#header-info h5 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #2E3A59;
+}
+
+#header-info h4 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2E3A59;
+}
+
+#info-chld-1 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin: 0 175px;
+}
+
+#info-cards {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 115px;
+}
+
+#info-images {
+    /* background-color: blue; */
+}
+
+.card-text {
+    /* background-color: bisque; */
+}
+
+.info-badge {
+    background-color: #1D54A4;
+    max-width: 65px;
+    max-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-badge h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2E3A59;
+}
+
+.card-text h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2E3A59;
+}
+
+#card-1 {
+    width: 50%;
+}
+
+#card-2 {
+    width: 50%;
+    margin-top: -25px;
+    padding: 15px;
+}
+
+#card-3 {
+    width: 100%;
+    margin-left: 300px;
+    padding: 15px;
+    margin-top: 140px;
+}
+
+#card-3 div {
+    background-color: #FFC46B;
+}
+
+#card-3 div {
+    background-color: #FE9E76;
+}
+
+#img-2 {
+    float: right;
+}
+
+#img-1 {
+    margin-top: -300px;
+}
+
+#info-chld-2 {
+    display: grid;
+    grid-template-columns: 35% 35%;
+    margin: 0 175px;
+}
+
+#info-image-2 {
+    margin-top: 110px;
+}
+
+#img-3 {}
+
+#img-group {
+    max-width: 240px;
+    max-width: 100px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px black;
+    float: right;
+    background-color: white;
+    margin-top: -90px;
+    margin-left: 200px;
+    position: relative;
+    padding: 10px;
+}
+
+#g-img-2 {
+    margin-left: -20px;
+}
+
+#g-img-3 {
+    margin-left: -20px;
+    padding: 20px;
 }
